@@ -1,9 +1,5 @@
 plugins {
-<<<<<<< HEAD
-	id 'fabric-loom' version '0.10-SNAPSHOT'
-=======
 	id 'fabric-loom' version '0.11-SNAPSHOT'
->>>>>>> branch 'master' of https://github.com/Minenash/Seamless-Loading-Screen.git
 	id 'maven-publish'
 }
 
@@ -44,15 +40,11 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
-<<<<<<< HEAD
 	// ensure that the encoding is set to UTF-8, no matter what the system default is
 	// this fixes some edge cases with special characters not displaying correctly
 	// see http://yodaconditions.net/blog/fix-for-java-file-encoding-problems-with-gradle.html
 	// If Javadoc is generated, this must be specified in that task too.
 	it.options.encoding = "UTF-8"
-
-=======
->>>>>>> branch 'master' of https://github.com/Minenash/Seamless-Loading-Screen.git
 	// Minecraft 1.18 (1.18-pre2) upwards uses Java 17.
 	it.options.release = 17
 }

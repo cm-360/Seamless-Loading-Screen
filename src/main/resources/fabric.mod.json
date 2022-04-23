@@ -32,11 +32,7 @@
   },
 
   "depends": {
-<<<<<<< HEAD
-    "fabricloader": ">=0.12.12",
-=======
     "fabricloader": ">=0.13.3",
->>>>>>> branch 'master' of https://github.com/Minenash/Seamless-Loading-Screen.git
     "fabric": "*",
     "minecraft": "1.18.x"
   }
