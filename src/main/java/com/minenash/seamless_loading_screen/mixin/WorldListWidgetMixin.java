@@ -18,7 +18,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(WorldListWidget.Entry.class)
 public class WorldListWidgetMixin {
 
-    @Shadow @Final private LevelSummary level;
+    @Shadow @Final LevelSummary level;
 
     @Inject(method = "play", at = @At("HEAD"))
     public void setFilename(CallbackInfo info) {
